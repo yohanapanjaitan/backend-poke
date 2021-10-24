@@ -56,7 +56,6 @@ export class AppService {
     const url = `https://pokeapi.co/api/v1/pokemon/${nameOrId}`;
     try {
       const response = await this.httpService.get(url).toPromise();
-      // console.log(response.data)
       return response.data
     } catch (e) {
       throw new HttpException("Unable to fetch pokemon. Your pokemon may not exist.", HttpStatus.BAD_REQUEST)
