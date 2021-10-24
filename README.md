@@ -4,6 +4,9 @@
 $ cp local.env .env
 ```
 ```bash
+$ cp ormconfig.template.json ormconfig.json
+```
+```bash
 $ npm install
 ```
 
