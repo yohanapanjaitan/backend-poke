@@ -31,8 +31,8 @@ $ npm test
 ``POST /v1/users/register``
 > register new user, params (email, name, password)
 
-``GET /user/pokemon/random``
+``GET /v1/user/pokemon/random``
 > get random pokemon
 
-``GET /user/pokemon/{nameOrId}``
+``GET /v1/user/pokemon/{nameOrId}``
 > get spesific pokemon by name or id
